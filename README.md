@@ -1,26 +1,18 @@
-\# Linux World
+\# H1
 
 
 
-A modern responsive landing page about Linux distributions.
+\## H2
 
 
 
-\## Technologies
+\### H3
 
 
 
-\- HTML5
-
-\- CSS3
-
-\- JavaScript
+\*\*Bold\*\*
 
 
 
-\## Status
-
-
-
-\## In Development
+\*Italic\*
 
