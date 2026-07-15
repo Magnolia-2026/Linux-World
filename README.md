@@ -1,15 +1,20 @@
 # Linux World
 
-A modern responsive landing page about Linux distributions.
+A modern interactive web experience for exploring Linux distributions.
+
+Linux World introduces popular Linux distributions with a beautiful
+interface, animated visuals, and interactive terminal simulation.
+
+## Features
+
+- Explore Linux distributions
+- Interactive terminal simulation
+- Package manager visualization
+- Modern dark UI
+- Smooth animations
 
 ## Technologies
 
 - HTML5
-
 - CSS3
-
-- JavaScript
-
-## Status
-
-In Development
+- JavaScript (ES6+)
