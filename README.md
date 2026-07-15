@@ -18,3 +18,5 @@ interface, animated visuals, and interactive terminal simulation.
 - HTML5
 - CSS3
 - JavaScript (ES6+)
+
+Status: Under Development
