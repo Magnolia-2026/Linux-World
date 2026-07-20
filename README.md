@@ -142,7 +142,6 @@ linux-world/
 │       ├── tabs.css
 │       ├── software.css
 │       ├── terminal.css
-│       ├── analyzer.css
 │       ├── commands.css
 │       ├── cards.css
 │       └── footer.css
@@ -156,7 +155,6 @@ linux-world/
 │   │   ├── tabs.js
 │   │   ├── software.js
 │   │   ├── terminal.js
-│   │   ├── analyzer.js
 │   │   ├── commands.js
 │   │   ├── search.js
 │   │   └── theme.js
@@ -202,7 +200,6 @@ Core entities:
 - Hero Section
 - Distribution Explorer
 - Software Installer
-- Hardware Analyzer
 - Popular Software
 - Installation Terminal
 - Essential Commands

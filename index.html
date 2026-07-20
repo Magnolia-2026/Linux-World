@@ -7,22 +7,194 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header class="header">
-      <a href="" class="header__logo">
-        <img src="#" alt="Linux World" />
-      </a>
-      <nav class="header__navbar">
-        <ul>
-          <li>Home</li>
-          <li>Distros</li>
-          <li>Commands</li>
-        </ul>
-      </nav>
-      <button class="header__toggle" aria-label="Toggle theme"></button>
-      <a href="" class="header__github">GitHub</a>
-    </header>
-
-    <main class="main"></main>
-    <footer class="footer"></footer>
+    <div class="app">
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <div class="logo">
+            <img src="./" alt="linux world" />
+            <span>LINUX WORLD</span>
+          </div>
+        </div>
+        <nav class="sidebar-nav">
+          <ul class="sidebar-list">
+            <li class="sidebar-item">
+              <button type="button" class="nav-button">Home</button>
+            </li>
+            <li class="sidebar-item">
+              <button type="button" class="nav-button">Distributions</button>
+            </li>
+            <li class="sidebar-item">
+              <button type="button" class="nav-button">Comparison</button>
+            </li>
+            <li class="sidebar-item">
+              <button type="button" class="nav-button">Terminal</button>
+            </li>
+            <li class="sidebar-item">
+              <button type="button" class="nav-button">Installer</button>
+            </li>
+            <li class="sidebar-item">
+              <button type="button" class="nav-button">Commands</button>
+            </li>
+            <li class="sidebar-item">
+              <button type="button" class="nav-button">File System</button>
+            </li>
+            <li class="sidebar-item">
+              <button type="button" class="nav-button">Boot Process</button>
+            </li>
+            <li class="sidebar-item">
+              <button type="button" class="nav-button">Environments</button>
+            </li>
+            <li class="sidebar-item">
+              <button type="button" class="nav-button">Timeline</button>
+            </li>
+            <li class="sidebar-item">
+              <button type="button" class="nav-button">About</button>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="main">
+        <!--Dashboard-->
+        <section class="dashboard">
+          <!--Hero-->
+          <section class="hero panel">
+            <!--Hero header-->
+            <header class="hero-header">
+              <div class="hero-search">
+                <input type="search" placeholder="Search Linux..." />
+              </div>
+              <div class="hero-header-actions">
+                <button class="github-button" type="button">GitHub</button>
+                <button class="theme-switcher" type="button">Theme</button>
+              </div>
+            </header>
+            <!--Hero body-->
+            <div class="hero-body">
+              <div class="hero-main">
+                <!--Hero overview-->
+                <article class="hero-overview">
+                  <figure class="hero-logo">
+                    <img
+                      src="./assets/icons/"
+                      alt="distro logo"
+                      class="hero-logo-image"
+                    />
+                  </figure>
+                  <!--hero-details-->
+                  <article class="hero-details">
+                    <header class="hero-details-header">
+                      <h1 class="hero-title">Arch Linux</h1>
+                      <p class="hero-tagline">Keep It Simple</p>
+                    </header>
+                    <div class="hero-description">
+                      <p>
+                        Arch Linux is a lightweight and flexible Linux
+                        distribution...
+                      </p>
+                    </div>
+                    <nav class="hero-buttons">
+                      <button type="button">Download</button>
+                      <button type="button">oficial Wiki</button>
+                      <button type="button">Packages</button>
+                    </nav>
+                  </article>
+                </article>
+                <!--Hero Specification-->
+                <section class="hero-specs">
+                  <article class="spec-card">
+                    <span class="spec-icon"></span>
+                    <h3 class="spec-title">Based On</h3>
+                    <p class="spec-value">Independent</p>
+                  </article>
+                  <article class="spec-card">
+                    <span class="spec-icon"></span>
+                    <h3 class="spec-title">Package Manager</h3>
+                    <p class="spec-value">Pacman</p>
+                  </article>
+                  <article class="spec-card">
+                    <span class="spec-icon"></span>
+                    <h3 class="spec-title">Release Model</h3>
+                    <p class="spec-value">Rolling</p>
+                  </article>
+                  <article class="spec-card">
+                    <span class="spec-icon"></span>
+                    <h3 class="spec-title">Architecture</h3>
+                    <p class="spec-value">x86_64</p>
+                  </article>
+                  <article class="spec-card">
+                    <span class="spec-icon"></span>
+                    <h3 class="spec-title">Difficulty</h3>
+                    <p class="spec-value">Advanced</p>
+                  </article>
+                </section>
+              </div>
+              <!--Hero Why section-->
+              <aside class="hero-why">
+                <header class="hero-why-header">
+                  <h2>Why Choose Arch?</h2>
+                </header>
+                <ul class="hero-why-list">
+                  <li class="hero-why-item">
+                    <span class="why-icon"></span>
+                    <p>Rolling Release</p>
+                  </li>
+                  <li class="hero-why-item">
+                    <span class="why-icon"></span>
+                    <p>Huge Package Repository</p>
+                  </li>
+                  <li class="hero-why-item">
+                    <span class="why-icon"></span>
+                    <p>Excellent Documentation</p>
+                  </li>
+                  <li class="hero-why-item">
+                    <span class="why-icon"></span>
+                    <p>Highly Customizable</p>
+                  </li>
+                </ul>
+              </aside>
+            </div>
+            <!--Hero footer-->
+            <footer class="hero-footer">
+              <article class="footer-card">
+                <span class="footer-icon"></span>
+                <div class="footer-info">
+                  <h3>Latest Version</h3>
+                  <p>Rolling Release</p>
+                </div>
+              </article>
+              <article class="footer-card">
+                <span class="footer-icon"></span>
+                <div class="footer-info">
+                  <h3>First Released</h3>
+                  <p>2002</p>
+                </div>
+              </article>
+              <article class="footer-card">
+                <span class="footer-icon"></span>
+                <div class="footer-info">
+                  <h3>Community</h3>
+                  <p>Huge Community</p>
+                </div>
+              </article>
+              <article class="footer-card">
+                <span class="footer-icon"></span>
+                <div class="footer-info">
+                  <h3>Website</h3>
+                  <p>archlinux.org</p>
+                </div>
+              </article>
+            </footer>
+          </section>
+          <!--Distrobiotion slider-->
+          <section class="distro-slider panel"></section>
+          <!--Terminal-->
+          <section class="terminal-panel panel"></section>
+          <!--software installer-->
+          <section class="installer-panel panel"></section>
+          <!--linux command panel-->
+          <section class="command-panel panel"></section>
+        </section>
+      </main>
+    </div>
   </body>
 </html>

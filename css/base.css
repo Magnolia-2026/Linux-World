@@ -1,0 +1,27 @@
+.panel {
+  border: 1px solid #2b3b58;
+
+  border-radius: 20px;
+
+  background: transparent;
+}
+
+.hero{
+    min-height:100px;
+}
+
+.distro-slider{
+    min-height:100px;
+}
+
+.terminal-panel{
+    min-height:100px;
+}
+
+.installer-panel{
+    min-height:100px;
+}
+
+.command-panel{
+    min-height:100px;
+}
