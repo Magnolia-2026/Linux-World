@@ -31,6 +31,18 @@
 
 .hero {
   grid-area: hero;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-header{
+  display: flex;
+}
+.hero-body{
+  display: flex;
+}
+.hero-footer{
+  display: flex;
 }
 .distro-slider {
   grid-area: slider;
@@ -44,4 +56,8 @@
 }
 .command-panel {
   grid-area: commands;
+}
+
+.distro-slider{
+  display: flex;
 }
