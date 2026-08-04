@@ -1,17 +1,29 @@
-.app{
-    display: flex;
-    padding: 25px;
-    height: 100vh;
+/*=============================================================================
+                                    containers
+===============================================================================*/
+.container {
+  width: 90%;
+  max-width: 1700px;
+  margin-inline: auto;
+}
+/*=============================================================================
+                                        app
+==============================================================================*/
+.app {
+  display: flex;
+  padding: var(--space-xl);
+  min-height: 100vh;
 }
 
-.main{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+/*=============================================================================
+                                        main
+===============================================================================*/
+.main {
+  flex: 1;
 }
 
-.sidebar{
-    width: 260px;
+.sidebar {
+  width: var(--sidebar-width);
 }
 .dashboard {
   display: grid;
@@ -20,28 +32,54 @@
     "hero hero hero"
     "slider slider slider"
     "terminal installer commands";
-    gap: var(--dashboard-gap);
-   
-
+  gap: var(--dashboard-gap);
 }
-
-.header{
-    height: 150px;
-}
-
+/*==============================================================================
+                                    hero
+================================================================================*/
 .hero {
   grid-area: hero;
+}
+
+.hero > .container {
   display: flex;
   flex-direction: column;
 }
 
-.hero-header{
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-body {
   display: flex;
 }
-.hero-body{
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  flex: 6;
+}
+.hero-overview {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.hero-specs {
   display: flex;
 }
-.hero-footer{
+.hero-why {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex: 4;
+}
+.hero-footer {
   display: flex;
 }
 .distro-slider {
@@ -58,6 +96,6 @@
   grid-area: commands;
 }
 
-.distro-slider{
+.distro-slider {
   display: flex;
 }

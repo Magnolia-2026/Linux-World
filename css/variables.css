@@ -1,7 +1,75 @@
-/*====================================
-                variables  
-=====================================*/
+/*==================================================
+  DESIGN TOKENS
+==================================================*/
 
 :root {
+  /*======================================
+    Colors
+  ======================================*/
+
+  --color-background: ;
+  --color-surface: ;
+  --color-panel: ;
+  --color-panel-hover: ;
+  --color-border: ;
+  --color-border-hover: ;
+  --color-accent: ;
+  --color-accent-hover: ;
+  --color-text-primary: ;
+  --color-text-secondary: ;
+  --color-text-muted: ;
+
+  /*======================================
+    Typography
+  ======================================*/
+  /* Font Family */
+  --font-family-base: --font-family-heading: --font-family-mono: /* Font Size */
+    --font-size-xs: --font-size-sm: --font-size-md: --font-size-lg:
+    --font-size-xl: --font-size-2xl: --font-size-3xl: /* Font Weight */
+    --font-weight-regular: --font-weight-medium: --font-weight-semibold:
+    --font-weight-bold;
+
+  /* Line Height */
+
+  --line-height-tight: --line-height-normal: --line-height-relaxed;
+
+  /*======================================
+    Spacing
+  ======================================*/
+
+  --space-xs: ;
+  --space-sm: ;
+  --space-md: ;
+  --space-lg: ;
+  --space-xl: 25px;
+  --space-2xl: ;
+  --space-3xl: ;
+  /*======================================
+    Border Radius
+  ======================================*/
+  --radius-sm: --radius-md: --radius-lg: --radius-xl: --radius-full:
+    /*======================================
+    Borders
+  ======================================*/
+    --border-width: --border-color: --border-hover-color;
+
+  /*======================================
+    Shadows
+  ======================================*/
+
+  --shadow-sm: --shadow-md: --shadow-lg;
+
+  /*======================================
+    Transitions
+  ======================================*/
+
+  --transition-fast: --transition-normal: --transition-slow;
+
+  /*======================================
+    Layout
+  ======================================*/
+
+  --sidebar-width: 260px;
+  --header-height: ;
   --dashboard-gap: 24px;
 }
