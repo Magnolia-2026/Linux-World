@@ -85,7 +85,9 @@
                     <section class="hero-details">
                       <header class="hero-details-header">
                         <h1 class="hero-title">Arch Linux</h1>
-                        <p class="hero-tagline">KEEP IT SIMPLE. KEEP IT ARCH.</p>
+                        <p class="hero-tagline">
+                          KEEP IT SIMPLE. KEEP IT ARCH.
+                        </p>
                         <div class="hero-description">
                           <p>
                             A lightweight and flexible Linux distribution
@@ -189,14 +191,38 @@
               </footer>
             </div>
           </section>
-          <!--Distribution slider-->
+          <!-- Distro Slider -->
+
           <section class="distro-slider panel">
-            <div class="slider-wraper">
-              <button class="prev" type="button">prev</button>
-              <div class="distro-track">
-                <!--Distribution cards are rendered by javascript-->
+            <div class="container">
+              <!-- Header -->
+
+              <header class="slider-header">
+                <h2 class="slider-title">Linux Distributions</h2>
+
+                <div class="slider-actions">
+                  <button class="slider-btn slider-btn-prev" type="button">
+                    PREV
+                  </button>
+                  <button class="slider-btn slider-btn-next" type="button">
+                    NEXT
+                  </button>
+                </div>
+              </header>
+
+              <!-- Viewport -->
+
+              <div class="slider-viewport">
+                <div class="slider-track">
+                  <!-- JS Generate Cards -->
+                </div>
               </div>
-              <button class="next" type="button">next</button>
+
+              <!-- Footer -->
+
+              <footer class="slider-footer">
+                <div class="slider-indicators"></div>
+              </footer>
             </div>
           </section>
           <!--Terminal-->

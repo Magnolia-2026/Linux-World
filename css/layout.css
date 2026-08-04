@@ -81,21 +81,53 @@
 }
 .hero-footer {
   display: flex;
+  justify-content: space-between;
 }
+
+/*==============================================================================
+                                    slider
+================================================================================*/
 .distro-slider {
   grid-area: slider;
 }
+.distro-slider .container {
+  display: flex;
+  flex-direction: column;
+}
+.slider-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.slider-viewport {
+  overflow: hidden;
+}
+.slider-track {
+  display: flex;
+}
+
+.slider-footer {
+  display: flex;
+  justify-content: center;
+}
+/*==============================================================================
+                                    terminal
+================================================================================*/
 .terminal-panel {
   grid-area: terminal;
 }
+
+/*==============================================================================
+                                    install software
+================================================================================*/
 .installer-panel {
   grid-area: installer;
 }
+
+/*==============================================================================
+                                    cheat sheet
+================================================================================*/
 .command-panel {
   grid-area: commands;
-}
-
-.distro-slider {
-  display: flex;
 }
