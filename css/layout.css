@@ -116,8 +116,20 @@
 ================================================================================*/
 .terminal-panel {
   grid-area: terminal;
+  display: flex;
+  flex-direction: column;
 }
 
+.terminal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.terminal-actions {
+  display: flex;
+  justify-content: space-between;
+}
 /*==============================================================================
                                     install software
 ================================================================================*/
