@@ -131,10 +131,22 @@
   justify-content: space-between;
 }
 /*==============================================================================
-                                    install software
+                                    installer panel
 ================================================================================*/
 .installer-panel {
   grid-area: installer;
+  display: flex;
+  flex-direction: column;
+}
+
+.installer-header {
+  display: flex;
+  align-items: center;
+}
+
+.installer-body {
+  display: flex;
+  flex-direction: column;
 }
 
 /*==============================================================================
@@ -142,4 +154,6 @@
 ================================================================================*/
 .command-panel {
   grid-area: commands;
+  display: flex;
+  flex-direction: column;
 }
