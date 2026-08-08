@@ -66,8 +66,7 @@
 
 .hero-buttons {
   display: flex;
-  justify-content: flex-start;
-  gap: 24px;
+  
 }
 .hero-specs {
   display: flex;
@@ -122,13 +121,11 @@
 
 .terminal-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .terminal-actions {
   display: flex;
-  justify-content: space-between;
 }
 /*==============================================================================
                                     installer panel
